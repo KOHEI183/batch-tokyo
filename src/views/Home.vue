@@ -13,7 +13,7 @@ import CloudStorage from '@/services/api/firebase-storage'
 export default Vue.extend({
   methods: {
     test() {
-      CloudStorage.getCloudStorage('gs://my-portfolio-c26fa.appspot.com')
+      CloudStorage.getCloudStorage('user/mebig.jpg')
         .then((r)=>{
           console.log(r);
         })

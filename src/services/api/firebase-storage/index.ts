@@ -1,11 +1,11 @@
 import { cloudStorage } from "@/firebase/fireBase";
-import { listAll, ref, ListResult } from "firebase/storage";
+import { ref, getDownloadURL } from "firebase/storage";
 
 export default {
   // https://modularfirebase.web.app/common-use-cases/storage/
   /* eslint-disable */
-  async getCloudStorage(storageURL: string): Promise<ListResult> {
+  async getCloudStorage(storageURL: string) {
     const imageRef = ref(cloudStorage, storageURL)
-    return await listAll(imageRef)
+    return await getDownloadURL(imageRef)
   },
 }
