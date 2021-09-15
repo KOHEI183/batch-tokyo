@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <v-app>
       <router-link to="/">ホーム</router-link> |
       <router-link to="/achievements">実績</router-link>
-    </div>
-    <router-view/>
+        <v-main>
+          <router-view/>
+        </v-main>
+    </v-app>
   </div>
 </template>
 
