@@ -16,6 +16,12 @@ const routes: Array<RouteConfig> = [
     name: 'Achievements',
     meta: { title: '実績', desc: '' },
     component: () => import(/* webpackChunkName: "achievements" */ '../views/Achievements.vue')
+  },
+  {
+    path: '/googleform',
+    name: 'GoogleForm',
+    meta: { title: '問合せ', desc: '' },
+    component: () => import(/* webpackChunkName: "googleform" */ '../views/GoogleForm.vue')
   }
 ]
 

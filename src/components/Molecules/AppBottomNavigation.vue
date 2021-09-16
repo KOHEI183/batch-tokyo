@@ -17,5 +17,12 @@
       </v-btn>
     </router-link>
 
+    <router-link to="/googleform" class="routerLink">
+      <v-btn value="recent">
+        <span>問合せ</span>
+        <v-icon>mdi-email</v-icon>
+      </v-btn>
+    </router-link>
+
   </v-bottom-navigation>
 </template>
