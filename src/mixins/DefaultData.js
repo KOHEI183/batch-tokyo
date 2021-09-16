@@ -1,6 +1,6 @@
 export default {
   data: () => ({
-    selfIntroduction: 'ねむい<br/>都内でWebエンジニアしています',
+    selfIntroduction: '<h2>ねむい</h2><br/>都内でwebアプリケーションのエンジニアしています。<br/>webに関しまして、<br/>皆様のお手伝いをさせていただけましたら幸いです。<br/>下記に記載がないものでも一度ご相談くださいませ。<br/>柔軟に対応させていただきますので、<br/>どうぞよろしくお願いいたします。',
     snsLink: [
       {
         name: 'ココナラ',
@@ -20,7 +20,7 @@ export default {
       },
       {
         name: 'Instagram',
-        url: ''
+        url: 'https://www.instagram.com/n_koh7/'
       }
     ],
     skillLists: [

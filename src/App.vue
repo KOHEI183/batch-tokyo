@@ -1,14 +1,31 @@
 <template>
   <div id="app">
     <v-app>
-      <router-link to="/">ホーム</router-link> |
-      <router-link to="/achievements">実績</router-link>
+      <BaseLayout>
+        <template #header>
+          <router-link to="/">ホーム</router-link> |
+          <router-link to="/achievements">実績</router-link>
+        </template>
         <v-main>
           <router-view/>
         </v-main>
+        <template #footer>
+        </template>
+      </BaseLayout>
     </v-app>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import BaseLayout from '@/components/Templates/BaseLayout.vue'
+
+export default Vue.extend({
+  components: {
+    BaseLayout
+  }
+})
+</script>
 
 <style>
 #app {

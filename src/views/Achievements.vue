@@ -1,7 +1,6 @@
 <template>
   <AchievementsList>
     <template #title>
-      <h2>実績</h2>
     </template>
     <template #list>
       <AppForImg
