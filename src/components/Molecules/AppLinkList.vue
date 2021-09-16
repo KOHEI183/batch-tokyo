@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div class="lisk-button-list">
     <div v-for="(link, i) in snsLink" :key="i">
       <VButtons
+        :class-name="'link-button'"
         :button-name="link.name"
+        :color-code="'white'"
         @event-button-click="postEvent(link.url)"
       />
     </div>

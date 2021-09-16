@@ -4,19 +4,21 @@
   >
     <v-container>
       <VImg
-        :class-name="'v-img50'"
+        :class-name="'v-img50 my-img'"
         :img-src="imgSrc"
       />
       <v-col cols="12">
         <VCard
-          :class="'v-card-item'"
+          :class="'v-card-item my-profile'"
+          :color-code="'white'"
           v-html="selfIntroduction"
         >
         </VCard>
       </v-col>
       <v-col cols="12">
         <VCard
-          :class="'v-card-item'"
+          :class="'v-card-item skill'"
+          :color-code="'white'"
         >
           <div class="d-flex flex-no-wrap justify-space-between"
             v-for="(item, i) in items"
@@ -27,6 +29,7 @@
               v-text="item.title"
             ></v-card-title>
             <v-rating
+              readonly
               v-model="item.rating"
               background-color="orange lighten-3"
               color="orange"

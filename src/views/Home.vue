@@ -1,7 +1,6 @@
 <template>
   <HomeTemplate>
     <template #title>
-      <h2>ホーム</h2>
     </template>
     <template #lists>
       <AppSkillList
