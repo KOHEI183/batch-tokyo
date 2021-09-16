@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <v-app>
       <router-link to="/">ホーム</router-link> |
       <router-link to="/achievements">実績</router-link>
-    </div>
-    <router-view/>
+        <v-main>
+          <router-view/>
+        </v-main>
+    </v-app>
   </div>
 </template>
 
@@ -15,6 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #f5f5f5;
 }
 
 #nav {

@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "dist",
+    "site": "my-portfolio-c26fa",
     "ignore": [
       "firebase.json",
       "**/.*",
