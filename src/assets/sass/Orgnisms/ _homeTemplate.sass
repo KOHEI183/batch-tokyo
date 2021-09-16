@@ -1,6 +1,20 @@
+@import "../Setting/_mixin"
 .home
-  &__title
   &__content
+    .v-card-filed
+      .skill
+        &__item
+          @include sp
+            display: unset !important
+          .text-h5
+            @include sp
+            font-size: 1.5rem !important
+            line-height: 0rem
+          .skill-rating
+            @include sp
+              margin-bottom: 20px
     .lisk-button-list
       width: 500px
       margin: auto
+      @include sp
+        width: 300px

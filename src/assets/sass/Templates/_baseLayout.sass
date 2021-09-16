@@ -2,7 +2,13 @@
 .main
   width: 100%
   &__header
+    margin-bottom: 20px
+    .bottom-navigation
+      padding: 10px
+      .routerLink
+        text-decoration: none
   &__main-content
-    width: 700px
     margin: auto
-  &__footer
+    width: 700px
+    @include sp
+      width: 350px

@@ -3,8 +3,7 @@
     <v-app>
       <BaseLayout>
         <template #header>
-          <router-link to="/">ホーム</router-link> |
-          <router-link to="/achievements">実績</router-link>
+          <AppBottomNavigation/>
         </template>
         <v-main>
           <router-view/>
@@ -19,10 +18,12 @@
 <script lang="ts">
 import Vue from 'vue'
 import BaseLayout from '@/components/Templates/BaseLayout.vue'
+import AppBottomNavigation from '@/components/Molecules/AppBottomNavigation.vue'
 
 export default Vue.extend({
   components: {
-    BaseLayout
+    BaseLayout,
+    AppBottomNavigation
   }
 })
 </script>
