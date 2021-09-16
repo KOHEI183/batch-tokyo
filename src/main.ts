@@ -7,6 +7,7 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 
 Vue.config.productionTip = false
+require("@/assets/sass/Master.sass");
 
 new Vue({
   router,

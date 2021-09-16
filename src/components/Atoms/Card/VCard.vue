@@ -1,8 +1,9 @@
 <template>
-  <img
+  <v-card
     :class="className"
-    :src="imgSrc"
   >
+    <slot/>
+  </v-card>
 </template>
 
 <script lang="ts">
@@ -13,10 +14,6 @@ export default Vue.extend({
       type: String,
       default: ''
     },
-    imgSrc: {
-      type: String,
-      default: ''
-    }
   }
 })
 </script>
