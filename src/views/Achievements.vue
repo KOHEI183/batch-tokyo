@@ -34,12 +34,10 @@ export default Vue.extend({
       .then((res)=>{
         for (const [index, key] of res.items.entries()) {
           CloudStorage.getCloudStorage(`achievements/${key.name}`)
-            /* eslint-disable */
-            .then((r: string) => {
-              this.imgSrc.push(r);
+            .then((res) => {
+              this.imgSrc.push(res);
             })
         }
-        console.log(this.imgSrc);
       })
       .catch((e)=>{
         console.error(e);
