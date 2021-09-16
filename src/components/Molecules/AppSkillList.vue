@@ -20,15 +20,16 @@
           :class="'v-card-item skill'"
           :color-code="'white'"
         >
-          <div class="d-flex flex-no-wrap justify-space-between"
+          <div class="d-flex flex-no-wrap justify-space-between skill__item"
             v-for="(item, i) in items"
             :key="i"
           >
             <v-card-title
-              class="text-h5"
+              class="text-h5 skill-title"
               v-text="item.title"
             ></v-card-title>
             <v-rating
+              class="skill-rating"
               readonly
               v-model="item.rating"
               background-color="orange lighten-3"

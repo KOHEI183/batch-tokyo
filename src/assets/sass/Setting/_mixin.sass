@@ -1,21 +1,10 @@
-@mixin defaultfont
-  color: white
-  font-size: 1em
-  font-weight: bold
-
-@mixin fontbold
-  font-size: 1em
-  font-weight: bold
-
-@mixin buttoncolor
-  color: white
-
-@mixin centercontent
-  display: flex
-  justify-content: center
-
 @mixin radius($topleft,$topright,$bottomleft,$bottomright)
   border-radius: $topleft $topright $bottomleft $bottomright
 
 @mixin radiusCircle($percent)
   border-radius: $percent
+
+$media-sp: 767px
+@mixin sp
+  @media only screen and (max-width: $media-sp)
+    @content
