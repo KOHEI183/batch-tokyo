@@ -5,11 +5,11 @@
     <template #lists>
       <AppSkillList
         :img-src="profileImg"
-        :items="skillLists"
-        :self-introduction="selfIntroduction"
+        :items="mixinsSkillLists"
+        :self-introduction="mixinsSelfIntroduction"
       >
         <AppLinkList
-          :sns-link="snsLink"
+          :sns-link="mixinsSnsLink"
           @event-button-click="windowOpen($event)"
         />
       </AppSkillList>
