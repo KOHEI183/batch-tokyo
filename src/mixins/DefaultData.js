@@ -1,7 +1,7 @@
 export default {
   data: () => ({
-    selfIntroduction: '<h2>ねむい</h2><br/>都内でwebアプリケーションの<br/>エンジニアしています。<br/><br/>webに関しまして、<br/>皆様のお手伝いをさせていただけましたら幸いです。<br/><br/>下記に記載がないものでも一度ご相談くださいませ。<br/>柔軟に対応させていただきますので、<br/>どうぞよろしくお願いいたします。',
-    snsLink: [
+    mixinsSelfIntroduction: '<h2>batch</h2><br/>都内でwebアプリケーションの<br/>エンジニアしています。<br/><br/>主にフロントエンドアプリ開発、CMS保守、レビューなどで<br/>皆様のお手伝いをさせていただいています。<br/><br/>下記に記載がないものでも一度ご相談くださいませ。<br/>柔軟に対応させていただきますので、<br/>どうぞよろしくお願いいたします。',
+    mixinsSnsLink: [
       {
         name: 'ココナラ',
         url: 'https://coconala.com/users/2231250/services'
@@ -16,14 +16,14 @@ export default {
       },
       {
         name: 'Twitter',
-        url: 'https://twitter.com/n_koh555'
+        url: 'https://twitter.com/batch_tokyo'
       },
       {
         name: 'Instagram',
-        url: 'https://www.instagram.com/n_koh7/'
+        url: 'https://www.instagram.com/batch_tokyo/'
       }
     ],
-    skillLists: [
+    mixinsSkillLists: [
       {
         title: 'HTML',
         rating: 4
@@ -58,11 +58,11 @@ export default {
       },
       {
         title: 'FireBase',
-        rating: 3
+        rating: 4
       },
       {
         title: 'カラーミー',
-        rating: 3
+        rating: 5
       },
               {
         title: 'BASE',
