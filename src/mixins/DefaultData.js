@@ -26,19 +26,19 @@ export default {
     mixinsSkillLists: [
       {
         title: 'HTML',
-        rating: 4
+        rating: 5
       },
       {
         title: 'CSS',
-        rating: 4
+        rating: 5
       },
       {
         title: 'Sass/Scss',
-        rating: 4
+        rating: 5
       },
       {
         title: 'javaScript',
-        rating: 4
+        rating: 5
       },
       {
         title: 'jQuery',
