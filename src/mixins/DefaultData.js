@@ -86,7 +86,7 @@ export default {
     mixinsAchievementListData: [
       {
         id: 0,
-        title: '最王手エンタメ系：社内予算管理システム',
+        title: '最王手エンタメ系社内予算管理システム',
         join: true,
         phase: '製造、保守、テスト',
         technology: 'Nuxt.js2（Class api）、HTML、CSS、TypeScript',
@@ -97,7 +97,7 @@ export default {
         title: 'webサービス開発',
         join: true,
         phase: '基本設計～製造',
-        technology: 'Nuxt.js2、HTML、CSS、TypeScript、vite、firebase(Auth,Storege,Hosting,Realtime DB)',
+        technology: 'Nuxt.js2、HTML、CSS、TypeScript、vite、firebase(Auth、Storege、Hosting、Realtime DB)',
         tools: 'GitHub'
       },
       {

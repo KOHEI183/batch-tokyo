@@ -12,12 +12,12 @@
         >
           <div class="project-title">
             <h2>{{ list.title }}</h2>
-            <p v-if="list.join">※現在参加プロジェクト</p>
+            <span v-if="list.join">※現在参加プロジェクト</span>
           </div>
           <ul>
-            <li>フェーズ：{{ list.phase }}</li>
-            <li>使用技術：{{ list.technology }}</li>
-            <li>使用ツール：{{ list.tools }}</li>
+            <li><span>フェーズ：</span>{{ list.phase }}</li>
+            <li><span>使用ツール：</span>{{ list.tools }}</li>
+            <li><span>使用技術：</span>{{ list.technology }}</li>
           </ul>
         </VCard>
       </v-col>
