@@ -5,6 +5,11 @@ import store from './store'
 
 // plugin
 import vuetify from './plugins/vuetify'
+import VueAnalytics from 'vue-analytics'
+
+Vue.use(VueAnalytics, {
+  id: 'UA-207677201-1'
+})
 
 Vue.config.productionTip = false
 require("@/assets/sass/Master.sass");
