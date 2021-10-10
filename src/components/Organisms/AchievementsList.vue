@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div class="achievements">
     <slot name="title"/>
-      <div class="">
+      <div class="achievements__list">
         <slot name="list"/>
       </div>
   </div>
