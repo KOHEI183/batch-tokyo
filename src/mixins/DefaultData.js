@@ -73,5 +73,41 @@ export default {
         rating: 2
       },
     ],
+    mixinsAchievement: [
+      {
+        id: 0,
+        title: '案件実績'
+      },
+      {
+        id: 1,
+        title: 'ココナラ',
+      },
+    ],
+    mixinsAchievementListData: [
+      {
+        id: 0,
+        title: '最王手エンタメ系：社内予算管理システム',
+        join: true,
+        phase: '製造、保守、テスト',
+        technology: 'Nuxt.js2（Class api）、HTML、CSS、TypeScript',
+        tools: 'story book、backlog'
+      },
+      {
+        id: 1,
+        title: 'webサービス開発',
+        join: true,
+        phase: '基本設計～製造',
+        technology: 'Nuxt.js2、HTML、CSS、TypeScript、vite、firebase(Auth,Storege,Hosting,Realtime DB)',
+        tools: 'GitHub'
+      },
+      {
+        id: 2,
+        title: 'EC事業者向け顧客管理ツール',
+        join: false,
+        phase: '製造、保守、テスト',
+        technology: 'Vue.js（Option api）、HTML、CSS、JavaScript',
+        tools: 'GitLab、backlog'
+      },
+    ],
   })
 };
