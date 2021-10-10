@@ -3,14 +3,12 @@
     :class="'v-card-filed'"
   >
     <v-container>
-      <VSlotPtag>
-        {{pageTitle}}
-      </VSlotPtag>
       <v-col
         v-for="(src, i) in imgSrc" :key="i"
       >
         <VCard
           :class="'v-card-item'"
+          :color-code="'white'"
         >
           <VImg
             :class-name="'v-img20'"
@@ -25,13 +23,11 @@
 <script lang="ts">
 import Vue from 'vue'
 import VImg from '@/components/Atoms/Img/VImg.vue'
-import VSlotPtag from '@/components/Atoms/Slots/VSlotPtag.vue'
 import VCard from '@/components/Atoms/Card/VCard.vue'
 
 export default Vue.extend({
   components: {
     VImg,
-    VSlotPtag,
     VCard
   },
   props: {
