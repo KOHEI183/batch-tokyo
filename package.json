@@ -11,7 +11,7 @@
     "axios": "^0.21.4",
     "core-js": "^3.6.5",
     "firebase": "^9.0.2",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
     "vue-class-component": "^7.2.3",
